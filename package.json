@@ -7,12 +7,14 @@
     "dev": "vite --port 8080",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid w-full h-[50vh] xl:h-[100vh] grid-cols-2 grid-rows-2 img-bg">
+  <div class="grid w-full h-[100vh] grid-cols-2 grid-rows-2 img-bg">
     <div class="flex flex-col w-2/3 justify-center items-center justify-self-end row-start-1 space-y-4">
       <span class="self-baseline text-5xl xl:text-7xl font-bold font-nohemi-bold text-orange">Rendez-vous</span>
       <span class="text-2xl xl:text-5xl font-bold font-nohemi-bold text-orange">les 17 et 18 mai 2025 à l’hôtel de la métropôle de Lyon</span>

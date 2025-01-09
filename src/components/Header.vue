@@ -39,7 +39,7 @@ function goTo(id: string) {
     return;
   }
 
-  window.location.href = `#${id}`;
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 }
 </script>
 

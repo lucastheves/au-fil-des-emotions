@@ -12,7 +12,7 @@
       >
         {{ typeLabel }}
       </div>
-      <img :src="pictogram" :alt="item.emotion" class="max-h-16" />
+      <img :src="pictogram" class="max-h-16" />
     </div>
 
     <div class="flex flex-col h-full px-2 justify-center">

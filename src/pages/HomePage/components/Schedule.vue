@@ -52,13 +52,18 @@
         >
       </div>
 
-      <hr class="w-full bg-background h-0.5 mt-4 mb-16" />
+      <hr class="w-full bg-background h-0.5 mt-4" />
 
-      <div class="grid grid-cols-2 xl:grid-cols-4 py-16 gap-x-16 gap-y-16">
+      <div v-if="filteredItems.length > 0" class="grid grid-cols-2 xl:grid-cols-4 py-16 gap-x-16 gap-y-16">
         <template v-for="(item, i) in filteredItems" :key="i">
           <ScheduleCard :item="item" />
         </template>
       </div>
+      <template v-else>
+        <p class="w-full text-center text-xl text-background mt-8">
+          Oops... aucun évènement ne correspond à ta recherche...
+        </p>
+      </template>
     </div>
   </div>
 </template>
