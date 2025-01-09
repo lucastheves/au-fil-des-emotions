@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'FaroDisplay';
+  src: url('/fonts/FaroDisplay.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nohemi-Regular';
+  src: url('/fonts/Nohemi-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Nohemi-Bold';
+  src: url('/fonts/Nohemi-Bold.ttf');
+}
+
+body {
+  font-family: 'Nohemi-Regular';
+}
+
+:root {
+  --color-gradient-start: #fda603;
+  --color-gradient-end: #f7cf0e;
+}
